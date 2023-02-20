@@ -1,0 +1,18 @@
+[
+        {
+                "id": 1,
+                "src": "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+                "alt": "tree"
+        },
+        {
+                "id": 2,
+                "src": "https://media.cntraveller.com/photos/611bf0b8f6bd8f17556db5e4/4:3/pass/gettyimages-1146431497.jpg",
+                "alt": "lake",
+                "unactive": true
+        },
+        {
+                "id": 3,
+                "src": "https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg",
+                "alt": "flowers"
+        }
+]
