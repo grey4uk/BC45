@@ -1,0 +1,25 @@
+@value mycolor from '../../globalVariables.module.css';
+
+.title {
+        font-family: var(--body-text);
+        color: mycolor
+}
+
+.main {
+        composes: title;
+        font-size: 28px;
+}
+
+.medium {
+        composes: title;
+        font-size: 22px;
+}
+
+.small {
+        composes: title;
+        font-size: 18px;
+}
+
+.differentColor {
+        color: var(--marine)
+}
