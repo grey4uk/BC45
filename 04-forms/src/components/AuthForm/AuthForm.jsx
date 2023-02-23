@@ -42,6 +42,7 @@ class AuthForm extends Component {
     const { handleChange, state } = this;
     const { email, password } = state;
     return (
+      // vanilla version
       <form onSubmit={this.handleSubmit}>
         <label>
           Email
@@ -60,7 +61,8 @@ class AuthForm extends Component {
         />
         <button>Auth</button>
       </form>
-      // <Form>
+      // bootstrap version
+      // <Form onSubmit={this.handleSubmit}>
       //   <Form.Group
       //     className='mb-3'
       //     controlId='formBasicEmail'>
@@ -68,6 +70,8 @@ class AuthForm extends Component {
       //     <Form.Control
       //       type='email'
       //       placeholder='Enter email'
+      // value={email}
+      // onChange={handleChange}
       //     />
       //   </Form.Group>
 
@@ -78,12 +82,9 @@ class AuthForm extends Component {
       //     <Form.Control
       //       type='password'
       //       placeholder='Password'
+      // value={password}
+      // onChange={handleChange}
       //     />
-      //   </Form.Group>
-      //   <Form.Group
-      //     className='mb-3'
-      //     controlId='formBasicCheckbox'>
-      //     <Form.Check type='checkbox' label='Check me out' />
       //   </Form.Group>
       //   <Button variant='primary' type='submit'>
       //     Submit
